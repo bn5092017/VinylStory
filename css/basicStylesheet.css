@@ -1,0 +1,28 @@
+/* basic stylesheet for Vinyl Story */
+
+html{
+    font-size: 17px;
+}
+
+body{
+    font-family: Verdana, Arial, sans-serif;
+}
+
+h1{
+    font-size: 2rem;
+    text-align: center;
+}
+
+nav ul{
+    display: flex;
+}
+
+nav li{
+    flex: 1;
+}
+
+nav a{
+    display: block;
+    text-decoration: none;
+    text-align: center;
+}
