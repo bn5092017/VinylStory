@@ -26,3 +26,17 @@ nav a{
     text-decoration: none;
     text-align: center;
 }
+
+main{
+    display: flex;
+}
+
+main section.images{
+    flex: 1;
+    padding: 0.5rem;
+}
+
+main section.text{
+    flex: 2;
+    padding: 1rem;
+}
