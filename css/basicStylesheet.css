@@ -38,5 +38,5 @@ main section.images{
 
 main section.text{
     flex: 2;
-    padding: 1rem;
+    /*padding: 1rem;*/
 }
