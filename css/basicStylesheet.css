@@ -2,28 +2,15 @@
 
 html{
     font-size: 17px;
+    background-color: #ccc;
 }
 
 body{
-    font-family: Verdana, Arial, sans-serif;
+    font-family: 'Poiret One', Verdana, Arial, sans-serif;
 }
 
 h1{
     font-size: 2rem;
-    text-align: center;
-}
-
-nav ul{
-    display: flex;
-}
-
-nav li{
-    flex: 1;
-}
-
-nav a{
-    display: block;
-    text-decoration: none;
     text-align: center;
 }
 
@@ -33,10 +20,35 @@ main{
 
 main section.images{
     flex: 1;
-    padding: 0.5rem;
+    padding: 3rem 0.5rem;
 }
 
 main section.text{
-    flex: 2;
-    /*padding: 1rem;*/
+    flex: 3;
+}
+
+/* nav styling */
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 2.5rem;
+}
+
+nav a{
+    color: #039
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    padding: 0.5rem;
+    font-family: Audiowide;
+}
+
+nav a:hover{
+    text-decoration: underline;
+    color: #309;
+}
+
+nav a.current_page{
+    color: #303;
 }
